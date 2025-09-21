@@ -1,0 +1,24 @@
+2025-09-21 21:24:32 - DataPreprocessor - INFO - 데이터 전처리 초기화 완료
+2025-09-21 21:24:32 - DataPreprocessor - INFO - 처리 대상: WORD1501~3000 (1500개)
+2025-09-21 21:24:32 - DataPreprocessor - INFO - ============================================================
+2025-09-21 21:24:32 - DataPreprocessor - INFO - 🚀 SU:DA 데이터 전처리 시작
+2025-09-21 21:24:32 - DataPreprocessor - INFO - ============================================================
+2025-09-21 21:24:32 - DataPreprocessor - INFO - 전체 단어 데이터 처리 시작
+2025-09-21 21:31:48 - DataPreprocessor - INFO - 데이터 처리 완료: 성공 1500개, 실패 0개
+2025-09-21 21:31:48 - DataPreprocessor - INFO - 수어 단어 사전 생성 중
+2025-09-21 21:31:48 - DataPreprocessor - INFO - 수어 단어 사전 생성 완료: 1408개 단어 (특수토큰 4개 포함)
+2025-09-21 21:31:48 - DataPreprocessor - INFO - 데이터 분할 중 (검증용 비율: 0.2)
+2025-09-21 21:31:48 - DataPreprocessor - WARNING - 1개 샘플만 있는 클래스들: 1336개
+2025-09-21 21:31:48 - DataPreprocessor - WARNING - 예시: ['운전면허', '골키퍼', '구경', '성토', '권투']
+2025-09-21 21:31:48 - DataPreprocessor - INFO - 데이터 분할 완료: 학습용 1200개, 검증용 300개
+2025-09-21 21:31:49 - DataPreprocessor - INFO - 분할 데이터 저장 완료: /Users/yoojung/Desktop/Sign2Lang/data/processed/splits/train.csv, /Users/yoojung/Desktop/Sign2Lang/data/processed/splits/val.csv
+2025-09-21 21:31:49 - DataPreprocessor - INFO - ============================================================
+2025-09-21 21:31:49 - DataPreprocessor - INFO - ✅ 데이터 전처리 완료!
+2025-09-21 21:31:49 - DataPreprocessor - INFO - ============================================================
+2025-09-21 21:31:49 - DataPreprocessor - INFO - 📊 총 샘플 수: 1500
+2025-09-21 21:31:49 - DataPreprocessor - INFO - 🎯 학습용: 1200개 (80.0%)
+2025-09-21 21:31:49 - DataPreprocessor - INFO - 🔍 검증용: 300개 (20.0%)
+2025-09-21 21:31:49 - DataPreprocessor - INFO - 📚 수어 단어 수: 1404개
+2025-09-21 21:31:49 - DataPreprocessor - INFO - 📏 최대 시퀀스 길이: 200
+2025-09-21 21:31:49 - DataPreprocessor - INFO - 💾 저장 위치: /Users/yoojung/Desktop/Sign2Lang/data/processed
+2025-09-21 21:31:49 - DataPreprocessor - INFO - ============================================================
